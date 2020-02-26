@@ -1,8 +1,10 @@
 ---
 layout: page
-title: About
+title: About Neil
 permalink: /about/
 ---
+
+Neil Stewart is a professor of behavioural science at Warwick Business School
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
