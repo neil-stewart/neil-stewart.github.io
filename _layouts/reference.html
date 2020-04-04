@@ -1,0 +1,59 @@
+---
+---
+<div class="text-justify">
+    {{reference}}
+</div>
+
+{% if entry.note %}
+<div>
+    <em>{{ entry.note }}</em>
+</div>
+{% endif %}
+
+<div>
+    {% if entry.doi %}
+	<!-- <span><a href="{{ entry.doi | prepend: 'http://doi.org/' }}">doi: {{ entry.doi }}</a></span> -->
+	<span><a href="{{ entry.doi | prepend: 'http://doi.org/' }}"><img src="assets/images/DOI_icon.png" alt="PDF" height="30"></a></span>
+    &nbsp;
+    {% endif %}
+
+	{% if entry.url %}
+	<!-- <span><a href="{{ entry.url }}">{{ entry.url }}</a></span> -->
+	<span><a href="{{ entry.url }}">URL</a></span>
+    &nbsp;
+    {% endif %}
+    
+	{% if entry.pdf %}
+	<span><a href="{{ entry.pdf }}"><img src="assets/images/PDF_icon.png" alt="PDF" height="30"></a></span>
+    &nbsp;
+    {% endif %}
+
+	{% if entry.psyarxiv %}
+	<span><a href="{{ entry.psyarxiv }}"><img src="assets/images/PsyArXiv_icon.png" alt="PDF" height="30"></a></span>
+    &nbsp;
+    {% endif %}	
+	
+	{% if entry.ssrn %}
+	<span><a href="{{ entry.ssrn }}"><img src="assets/images/SSRN_icon.png" alt="PDF" height="25"></a></span>
+    &nbsp;
+    {% endif %}
+
+	{% if entry.osf %}
+	<span><a href="{{ entry.osf }}"><img src="assets/images/OSF_icon.png" alt="OSF" height="20"></a></span>
+    &nbsp;
+    {% endif %}
+
+	{% if entry.github %}
+	<span><a href="{{ entry.github }}">Code on <img src="assets/images/github_icon.png" alt="github" height="30"></a></span>
+    &nbsp;
+    {% endif %}
+
+	
+	{% if entry.dataandcode %}
+	<span><a href="{{ entry.github }}">Data and code</a></span>
+    &nbsp;
+    {% endif %}
+</div>
+
+<!--<div><pre>{{ entry.bibtex }}</pre></div>-->
+
