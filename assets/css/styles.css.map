@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n\n",
+		".bibliography li {\n  list-style: none;\n  margin-bottom: 1em;\n}\n\ntable {\n  border: none;\n}\n"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,aAAa,CAAC,EAAE,CAAC,EACf,UAAU,EAAE,IAAI,EAChB,aAAa,EAAE,GAAG,GACnB;;AAED,AAAA,KAAK,CAAC,EACJ,MAAM,EAAE,IAAI,GACb"
+}
