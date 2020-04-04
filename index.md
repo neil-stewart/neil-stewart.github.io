@@ -14,7 +14,17 @@ I'm a behavioural scientist at [Warwick Business School](https://www.wbs.ac.uk) 
 I work in the field of behavioural and economic science, and apply this research to problems in the real world. Right now I am working on consumer decision making using mass transaction data, on criminal and other bad behaviour using crime and incident records, and on a mathematical models of cognition. I use a mixture of laboratory experiments, field experiments, and econometric and data science techniques applied to large data sets. 
 
 
-| [![Google Scholar](assets/images/Google_Scholar_50.png)](https://scholar.google.co.uk/citations?user=G1phNfoAAAAJ) | <span id="badgeCont968"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont968&rid=R-2282-2019"></script></span> | [![ORCID](assets/images/ORCiD_50.png)](https://orcid.org/0000-0002-2202-018X) |
+<!--| [![Google Scholar](assets/images/Google_Scholar_33.png)](https://scholar.google.co.uk/citations?user=G1phNfoAAAAJ) | <span id="badgeCont968"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont968&rid=R-2282-2019"></script></span> | [![ORCID](assets/images/ORCiD_33.png)](https://orcid.org/0000-0002-2202-018X) |-->
+
+&nbsp;
+
+[![Google Scholar](assets/images/Google_Scholar_33.png)](https://scholar.google.co.uk/citations?user=G1phNfoAAAAJ) 
+
+<span id="badgeCont968"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont968&rid=R-2282-2019"></script></span> 
+
+[![ORCID](assets/images/ORCiD_33.png)](https://orcid.org/0000-0002-2202-018X)
+
+&nbsp;
 
 ---
 
