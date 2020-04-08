@@ -47,10 +47,14 @@
 	<span><a href="{{ entry.github }}">Code on <img src="assets/images/github_icon.png" alt="github" height="30"></a></span>
     &nbsp;
     {% endif %}
-
 	
 	{% if entry.dataandcode %}
 	<span><a href="{{ entry.github }}">Data and code</a></span>
+    &nbsp;
+    {% endif %}
+	
+	{% if entry.wrap %}
+	<span><a href="{{ entry.wrap }}">Preprint</a></span>
     &nbsp;
     {% endif %}
 </div>

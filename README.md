@@ -8,6 +8,8 @@ git push
 
 rake git:deploy
 
+
+
 ## Tutorials
 
 [Jekyll tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/)
@@ -20,8 +22,9 @@ rake git:deploy
 
 ## To Do 
 
-* Add paper resources as github repos
+* Add WRAP links
 
-* Add initial post---apa2bib, wok2bib, links to git repos
+* Search old webpages for more paper resource repos to add
 
+* Add wok2bib as link to git repos
 
