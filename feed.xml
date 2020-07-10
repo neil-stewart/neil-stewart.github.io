@@ -1,4 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-07-10T16:34:45+01:00</updated><id>/feed.xml</id><title type="html">Neil Stewart</title><subtitle>Neil Stewart is a behavioural scientist at Warwick Business School in the  University of Warwick.</subtitle><entry><title type="html">apa2bib</title><link href="/2020/03/24/apa2bib.html" rel="alternate" type="text/html" title="apa2bib" /><published>2020-03-24T00:00:00+00:00</published><updated>2020-03-24T00:00:00+00:00</updated><id>/2020/03/24/apa2bib</id><content type="html" xml:base="/2020/03/24/apa2bib.html">&lt;p&gt;apa2bib is a command line utility for converting APA-formatted references into bibtex references for use with latex.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-07-10T16:49:57+01:00</updated><id>/feed.xml</id><title type="html">Neil Stewart</title><subtitle>Neil Stewart is a behavioural scientist at Warwick Business School in the  University of Warwick.</subtitle><entry><title type="html">DbS Code</title><link href="/2020/07/10/DbS_code.html" rel="alternate" type="text/html" title="DbS Code" /><published>2020-07-10T00:00:00+01:00</published><updated>2020-07-10T00:00:00+01:00</updated><id>/2020/07/10/DbS_code</id><content type="html" xml:base="/2020/07/10/DbS_code.html">&lt;p&gt;This code implements the decision-by-sampling model for risky choices reported in Stewart, Chater, and Brown (2006), Stewart and Simpson (2008) and Stewart (2009). The example R code implements the model for one example of the common ratio effect from Kahneman and Tversky (1979).&lt;/p&gt;
+
+&lt;p&gt;You can find the &lt;a href=&quot;https://github.com/neil-stewart/DbS_code&quot;&gt;DbS_code&lt;/a&gt; on github.&lt;/p&gt;
+
+&lt;p&gt;Here is an example of the at work:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{r}&quot;&gt;&amp;gt; # Load the decision by sampling library 
+&amp;gt; source(&quot;DbS.R&quot;) 
+&amp;gt;  
+&amp;gt; # 80% chance of 4000 otherwise nothing 
+&amp;gt; # vs 3000 for sure 
+&amp;gt; c3 &amp;lt;- list(g3A=gamble(x=c(4000, 0), p=c(0.8, 0.2)), 
++     g3B=gamble(x=c(3000), p=c(1)) 
++ ) 
+&amp;gt; c3 
+$g3A 
+        x   p 
+[1,] 4000 0.8 
+[2,]    0 0.2 
+ 
+$g3B 
+        x p 
+[1,] 3000 1 
+ 
+&amp;gt;  
+&amp;gt; # 20% chance of 4000 otherwise nothing 
+&amp;gt; # vs 25% chance of 3000 otherwise 
+&amp;gt; c4 &amp;lt;- list(g4A=gamble(x=c(4000, 0), p=c(0.2, 0.8)), 
++     g4B=gamble(x=c(3000, 0), p=c(0.25, 0.75)) 
++ ) 
+&amp;gt; c4 
+$g4A 
+        x   p 
+[1,] 4000 0.2 
+[2,]    0 0.8 
+ 
+$g4B 
+        x    p 
+[1,] 3000 0.25 
+[2,]    0 0.75 
+ 
+&amp;gt;  
+&amp;gt; # Thresholds for discriminating amounts and probabilities 
+&amp;gt; thresholds=list(x=10, p=.1) 
+&amp;gt;  
+&amp;gt; # A uniform background context of amounts and probabilities 
+&amp;gt; context=list(x=seq(-6000,6000,1), p=seq(-1,1,.01)) 
+&amp;gt;  
+&amp;gt; # Probability of selecting each gamble for each choice 
+&amp;gt; predictions &amp;lt;- DbS(choices=list(c3=c3, c4=c4), 
++     thresholds=thresholds, 
++     context=context, 
++     prob.sample.context=.5, 
++     prob.sample.amount=.5, 
++     self.comparison=F, 
++     choice.mechanism=&quot;accumulators&quot;, 
++     choice.threshold=5 
++ ) 
+&amp;gt; predictions 
+$c3 
+      g3A       g3B  
+0.1818279 0.8181721  
+ 
+$c4 
+      g4A       g4B  
+0.6025243 0.3974757  
+&lt;/code&gt;&lt;/pre&gt;</content><author><name>Neil</name></author><summary type="html">This code implements the decision-by-sampling model for risky choices reported in Stewart, Chater, and Brown (2006), Stewart and Simpson (2008) and Stewart (2009). The example R code implements the model for one example of the common ratio effect from Kahneman and Tversky (1979).</summary></entry><entry><title type="html">apa2bib</title><link href="/2020/03/24/apa2bib.html" rel="alternate" type="text/html" title="apa2bib" /><published>2020-03-24T00:00:00+00:00</published><updated>2020-03-24T00:00:00+00:00</updated><id>/2020/03/24/apa2bib</id><content type="html" xml:base="/2020/03/24/apa2bib.html">&lt;p&gt;apa2bib is a command line utility for converting APA-formatted references into bibtex references for use with latex.
 You can find my &lt;a href=&quot;https://github.com/neil-stewart/apa2bib&quot;&gt;apa2bib&lt;/a&gt; on github.&lt;/p&gt;
 
 &lt;p&gt;apa2bib contains some useful perl regular expressions (regexes) for parsing APA formatted references.&lt;/p&gt;
