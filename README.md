@@ -34,8 +34,6 @@ Brown, G. D. A., Stewart, N., & Wood, A. M. (2010). Cognitive science and behavi
 
 * Add PDFs on the web page from WRAP / Open Access versions and links to all papers
 
-* Add grant numbers and acceptance / publication date for all papers to bib.
-
 * Download all WRAP preprints to ~/miscellaneous/WRAP
 
 * Search old webpages for more paper resource repos to add
