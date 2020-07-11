@@ -40,7 +40,6 @@ Brown, G. D. A., Stewart, N., & Wood, A. M. (2010). Cognitive science and behavi
 
 * Add DFT calculator as link to git repos
 
-* Add DbS calculator as link to git repos
 
 
 
