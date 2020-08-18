@@ -8,7 +8,7 @@ This website is build using Jekyll and the minima theme. I followed the [Jekyll 
 
 The [publications](/publications.html) page is made using [Jekyll scholar](https://github.com/inukshuk/jekyll-scholar), which builds the whole page---links and all---from my master bibtex file.
 
-Because I have used the Jekyll scholar extension, which is not available on GitHub Pages, I have to build the site locally because pushing it to git, as described in [Jekyll on Github Pages with Plugins](http://sarahcassady.com/2015/07/17/jekyll-on-github-pages/) tutorial.
+Because I have used the Jekyll scholar extension, which is not available on GitHub Pages, I have to build the site locally, pushing it to git as described in [Jekyll on Github Pages with Plugins](http://sarahcassady.com/2015/07/17/jekyll-on-github-pages/) tutorial.
 
 
 
