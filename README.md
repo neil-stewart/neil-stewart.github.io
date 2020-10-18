@@ -22,6 +22,8 @@ rake git:deploy
 
 ## To Do 
 
+* Add Handbook of Process Tracing chapter
+
 * Add WRAP links for 
 
 Matthews, W. J., Stewart, N., & Wearden, J. H. (2011). Stimulus intensity and the perception of duration. Journal of Experimental Psychology: Human Perception and Performance, 37, 303–313. https://doi.org/10.1037/a0019961
