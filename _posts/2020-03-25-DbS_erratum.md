@@ -6,7 +6,7 @@ author: Neil
 
 The first equation on p. 1051 of Stewart (2009) should read
 
-$1/[1+(1/d-1)^T]$
+$$1/[1+(1/d-1)^T]$$
 
 instead of 
 
