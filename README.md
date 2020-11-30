@@ -42,16 +42,6 @@ Brown, G. D. A., Stewart, N., & Wood, A. M. (2010). Cognitive science and behavi
 
 * Add DFT calculator as link to git repos
 
-Data needs adding for:
 
-Reimers, S., & Stewart, N. (2016). Auditory presentation and synchronization in Adobe Flash and HTML5/JavaScript web experiments. Behaviour Research Methods, 48, 897-908. doi: 10.3758/s13428-016-0758-5 PDF
-
-Stewart, N., Gächter, S., Noguchi, T., & Mullett, T. L. (2016). Eye movements in strategic choice. Journal of Behavioral Decision Making, 29, 137-156. doi: 10.1002/bdm.1901 PDF
-
-Stewart, N., Hermens, F., & Matthews, W. J. (2016). Eye movements in risky choice. Journal of Behavioral Decision Making, 29, 116-136. doi: 10.1002/bdm.1854 PDF
-
-Stewart, N., Ungemach, C., Harris, A. J. L., Bartels, D. M., Newell, B., Paolacci, G., & Chandler, J. (2015). The average laboratory samples a population of 7,300 Amazon Mechanical Turk workers. Judgment and Decision Making, 10, 479–491. http://journal.sjdm.org/14/14725/jdm14725.pdf
-
-Stewart, N., Reimers, S., & Harris, A. J. L. (2015). On the origin of utility, weighting, and discounting functions: How they get their shapes and how to change their shapes. Management Science, 61, 687–705. https://doi.org/10.1287/mnsc.2013.1853
 
 
