@@ -38,9 +38,7 @@ Brown, G. D. A., Stewart, N., & Wood, A. M. (2010). Cognitive science and behavi
 
 * Download all WRAP preprints to ~/miscellaneous/WRAP
 
-* Add wok2bib as link to git repos
 
-* Add DFT calculator as link to git repos
 
 
 
