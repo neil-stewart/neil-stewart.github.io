@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-11-30T14:19:10+00:00</updated><id>/feed.xml</id><title type="html">Neil Stewart</title><subtitle>Neil Stewart is a behavioural scientist at Warwick Business School in the  University of Warwick.</subtitle><entry><title type="html">Fast DFT simulation</title><link href="/2020/08/19/fast_DFT_simulation.html" rel="alternate" type="text/html" title="Fast DFT simulation" /><published>2020-08-19T00:00:00+01:00</published><updated>2020-08-19T00:00:00+01:00</updated><id>/2020/08/19/fast_DFT_simulation</id><content type="html" xml:base="/2020/08/19/fast_DFT_simulation.html">&lt;p&gt;Back in the day I wrote this code for &lt;a href=&quot;https://github.com/neil-stewart/fast_DFT_simulation&quot;&gt;extremely fast decision field theory simulation&lt;/a&gt;, as reported in Roe, Busemeyer, and Townsend (2001).&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-11-30T15:17:44+00:00</updated><id>/feed.xml</id><title type="html">Neil Stewart</title><subtitle>Neil Stewart is a behavioural scientist at Warwick Business School in the  University of Warwick.</subtitle><entry><title type="html">Fast DFT simulation</title><link href="/2020/08/19/fast_DFT_simulation.html" rel="alternate" type="text/html" title="Fast DFT simulation" /><published>2020-08-19T00:00:00+01:00</published><updated>2020-08-19T00:00:00+01:00</updated><id>/2020/08/19/fast_DFT_simulation</id><content type="html" xml:base="/2020/08/19/fast_DFT_simulation.html">&lt;p&gt;Back in the day I wrote this code for &lt;a href=&quot;https://github.com/neil-stewart/fast_DFT_simulation&quot;&gt;extremely fast decision field theory simulation&lt;/a&gt;, as reported in Roe, Busemeyer, and Townsend (2001).&lt;/p&gt;
 
 &lt;p&gt;Thanks to Jerome Busemeyer for his help with this implementation!&lt;/p&gt;</content><author><name>Neil</name></author><summary type="html">Back in the day I wrote this code for extremely fast decision field theory simulation, as reported in Roe, Busemeyer, and Townsend (2001).</summary></entry><entry><title type="html">wok2bib and wok2apa</title><link href="/2020/08/18/wok2bib.html" rel="alternate" type="text/html" title="wok2bib and wok2apa" /><published>2020-08-18T00:00:00+01:00</published><updated>2020-08-18T00:00:00+01:00</updated><id>/2020/08/18/wok2bib</id><content type="html" xml:base="/2020/08/18/wok2bib.html">&lt;p&gt;A lot of people have been asking me how I keep this blog so edgy. Like this:&lt;/p&gt;
 
@@ -107,7 +107,23 @@ $c3
 $c4 
       g4A       g4B  
 0.6025243 0.3974757  
-&lt;/code&gt;&lt;/pre&gt;</content><author><name>Neil</name></author><summary type="html">This code implements the decision-by-sampling model for risky choices reported in Stewart, Chater, and Brown (2006), Stewart and Simpson (2008) and Stewart (2009). The example R code implements the model for one example of the common ratio effect from Kahneman and Tversky (1979).</summary></entry><entry><title type="html">apa2bib</title><link href="/2020/03/24/apa2bib.html" rel="alternate" type="text/html" title="apa2bib" /><published>2020-03-24T00:00:00+00:00</published><updated>2020-03-24T00:00:00+00:00</updated><id>/2020/03/24/apa2bib</id><content type="html" xml:base="/2020/03/24/apa2bib.html">&lt;p&gt;apa2bib is a command line utility for converting APA-formatted references into bibtex references for use with latex.
+&lt;/code&gt;&lt;/pre&gt;</content><author><name>Neil</name></author><summary type="html">This code implements the decision-by-sampling model for risky choices reported in Stewart, Chater, and Brown (2006), Stewart and Simpson (2008) and Stewart (2009). The example R code implements the model for one example of the common ratio effect from Kahneman and Tversky (1979).</summary></entry><entry><title type="html">Erratum for Stewart (2009)</title><link href="/2020/03/25/DbS_erratum.html" rel="alternate" type="text/html" title="Erratum for Stewart (2009)" /><published>2020-03-25T00:00:00+00:00</published><updated>2020-03-25T00:00:00+00:00</updated><id>/2020/03/25/DbS_erratum</id><content type="html" xml:base="/2020/03/25/DbS_erratum.html">&lt;p&gt;The first equation on p. 1051 of Stewart (2009) should read&lt;/p&gt;
+
+&lt;p&gt;$1/[1+(1/d-1)^T]$&lt;/p&gt;
+
+&lt;p&gt;instead of&lt;/p&gt;
+
+&lt;p&gt;$1/[1+(1-1/d)^T]$&lt;/p&gt;
+
+&lt;p&gt;The second equation on p. 1051 should read&lt;/p&gt;
+
+&lt;p&gt;$\sum_{i=0}^{T-1}\frac{(T+i-1)!}{i!(T-1)!} ~ p_A^T p_b^i$&lt;/p&gt;
+
+&lt;p&gt;instead of&lt;/p&gt;
+
+&lt;p&gt;$\sum_{i=0}^{T-1}\frac{(T-i-1)!}{i!(T-1)!} ~ p_A^T p_b^i$&lt;/p&gt;
+
+&lt;p&gt;Stewart, N. (2009). Decision by sampling: The role of the decision environment in risky choice. &lt;em&gt;Quarterly Journal of Experimental Psychology, 62,&lt;/em&gt; 1041–1062. &lt;a href=&quot;https://doi.org/10.1080/17470210902747112&quot;&gt;doi: 10.1080/17470210902747112&lt;/a&gt;&lt;/p&gt;</content><author><name>Neil</name></author><summary type="html">The first equation on p. 1051 of Stewart (2009) should read</summary></entry><entry><title type="html">apa2bib</title><link href="/2020/03/24/apa2bib.html" rel="alternate" type="text/html" title="apa2bib" /><published>2020-03-24T00:00:00+00:00</published><updated>2020-03-24T00:00:00+00:00</updated><id>/2020/03/24/apa2bib</id><content type="html" xml:base="/2020/03/24/apa2bib.html">&lt;p&gt;apa2bib is a command line utility for converting APA-formatted references into bibtex references for use with latex.
 You can find my &lt;a href=&quot;https://github.com/neil-stewart/apa2bib&quot;&gt;apa2bib&lt;/a&gt; on github.&lt;/p&gt;
 
 &lt;p&gt;apa2bib contains some useful perl regular expressions (regexes) for parsing APA formatted references.&lt;/p&gt;
