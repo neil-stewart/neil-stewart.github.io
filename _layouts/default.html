@@ -5,6 +5,18 @@
 
   <body>
 
+ <!--Inserted to allow rendering of equations-->		  
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true
+  }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+<!--End insert-->
+
     {%- include header.html -%}
 
     <main class="page-content" aria-label="Content">
@@ -18,3 +30,5 @@
   </body>
 
 </html>
+
+
