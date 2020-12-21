@@ -8,6 +8,10 @@ git push
 
 rake git:deploy
 
+## To View the Site Locally
+
+bundle exec jekyll serve
+
 
 
 ## Tutorials

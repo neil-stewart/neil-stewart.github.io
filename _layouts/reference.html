@@ -32,7 +32,12 @@
 	<span><a href="{{ entry.psyarxiv }}"><img src="assets/images/PsyArXiv_icon.png" alt="PDF" height="30"></a></span>
     &nbsp;
     {% endif %}	
-	
+
+	{% if entry.arxiv %}
+	<span><a href="{{ entry.arxiv }}"><img src="assets/images/arXiv_icon.png" alt="PDF" height="20"></a></span>
+    &nbsp;
+    {% endif %}	
+		
 	{% if entry.ssrn %}
 	<span><a href="{{ entry.ssrn }}"><img src="assets/images/SSRN_icon.png" alt="PDF" height="25"></a></span>
     &nbsp;
