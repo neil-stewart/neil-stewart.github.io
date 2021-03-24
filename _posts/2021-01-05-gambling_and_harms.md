@@ -10,5 +10,5 @@ You can read our comment in the New Scientist [here](https://www.newscientist.co
 
 Muggleton, N., Parpart, P., Newall, P., Leake, D., Gathergood, J., & Stewart, N. (2021). The association between gambling and financial, social, and health outcomes in big financial data. _Nature Human Behaviour._ [https://doi.org/10.1038/s41562-020-01045-w](https://doi.org/10.1038/s41562-020-01045-w)
 
-
+Read the article freely at [https://rdcu.be/chkDJ](https://rdcu.be/chkDJ)
 
