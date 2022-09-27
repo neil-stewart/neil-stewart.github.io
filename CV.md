@@ -26,7 +26,8 @@ Society Prize Lecture](http://www.eps.ac.uk/index.php/eps-prize-lecturer) report
 # Service
 
 | 2012- | Associate editor, _Management Science_ |
-| 2008- | Consulting editor, _Psychological Review_ |
+| 2019- | Consulting editor, _Decision_ |
+| 2008-2021 | Consulting editor, _Psychological Review_ |
 | 2011-2018 | Consulting editor, _Journal of Experimental Psychology: Learning, Memory, and Cognition_ |
 | 2006-2013 | Consulting editor, _Psychonomic Bulletin & Review_ | 
 | 2011-2012 | Associate editor, _Quarterly Journal of Experimental Psychology_ |
