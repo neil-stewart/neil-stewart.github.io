@@ -3,20 +3,22 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Neil Stewart | Neil Stewart is a behavioural scientist at Warwick Business School in the University of Warwick.</title>
+<title>apa2bib | Neil Stewart</title>
 <meta name="generator" content="Jekyll v4.0.1" />
-<meta property="og:title" content="Neil Stewart" />
+<meta property="og:title" content="apa2bib" />
+<meta name="author" content="Neil" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Neil Stewart is a behavioural scientist at Warwick Business School in the University of Warwick." />
-<meta property="og:description" content="Neil Stewart is a behavioural scientist at Warwick Business School in the University of Warwick." />
-<link rel="canonical" href="/404.html" />
-<meta property="og:url" content="/404.html" />
+<meta name="description" content="apa2bib is a command line utility for converting APA-formatted references into bibtex references for use with latex. You can find my apa2bib on github." />
+<meta property="og:description" content="apa2bib is a command line utility for converting APA-formatted references into bibtex references for use with latex. You can find my apa2bib on github." />
+<link rel="canonical" href="/2020/03/24/apa2bib.html" />
+<meta property="og:url" content="/2020/03/24/apa2bib.html" />
 <meta property="og:site_name" content="Neil Stewart" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-03-24T00:00:00+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Neil Stewart" />
+<meta property="twitter:title" content="apa2bib" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Neil Stewart is a behavioural scientist at Warwick Business School in the University of Warwick.","headline":"Neil Stewart","url":"/404.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Neil"},"dateModified":"2020-03-24T00:00:00+00:00","datePublished":"2020-03-24T00:00:00+00:00","description":"apa2bib is a command line utility for converting APA-formatted references into bibtex references for use with latex. You can find my apa2bib on github.","headline":"apa2bib","mainEntityOfPage":{"@type":"WebPage","@id":"/2020/03/24/apa2bib.html"},"url":"/2020/03/24/apa2bib.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Neil Stewart" /></head>
 <body>
@@ -48,26 +50,32 @@ MathJax.Hub.Config({
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+        <h1>apa2bib</h1>
+<p>24 Mar 2020 - Neil</p>
 
-<div class="container">
-  <h1>404</h1>
+<p>apa2bib is a command line utility for converting APA-formatted references into bibtex references for use with latex.
+You can find my <a href="https://github.com/neil-stewart/apa2bib">apa2bib</a> on github.</p>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<p>apa2bib contains some useful perl regular expressions (regexes) for parsing APA formatted references.</p>
+
+<p>apa2bib is written in perl and works by matching references to regular expressions. apa2bib works with books (with volume and edition numbers), chapters in edited books, journal articles, magazine articles (e.g., Science and Nature), and in-press, submitted and unpublished manuscripts.</p>
+
+<p>Here is an example of apa2bib at work:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> <span class="s2">"Stewart, N., &amp; Ellis, A. W. (2008). Order of acquisition in learning perceptual categories: A laboratory analogue of the age of acquisition effect? Psychonomic Bulletin &amp; Review, 15, 70-74."</span> | apa2bib
+
+@article<span class="o">{</span>StewartEllis08,
+author  <span class="o">=</span> <span class="o">{</span>Stewart, N. and Ellis, A. W.<span class="o">}</span>,
+year    <span class="o">=</span> <span class="o">{</span>2008<span class="o">}</span>,
+title   <span class="o">=</span> <span class="o">{</span>Order of acquisition <span class="k">in </span>learning perceptual categories: A laboratory analogue of the age of acquisition effect?<span class="o">}</span>,
+journal <span class="o">=</span> <span class="o">{</span>Psychonomic Bulletin <span class="se">\&amp;</span> Review<span class="o">}</span>,
+volume  <span class="o">=</span> <span class="o">{</span>15<span class="o">}</span>,
+pages   <span class="o">=</span> <span class="o">{</span>70--74<span class="o">}</span>,
+<span class="o">}</span>
+</code></pre></div></div>
+
+
+
 
       </div>
     </main><footer class="site-footer h-card">

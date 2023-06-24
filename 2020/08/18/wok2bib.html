@@ -3,20 +3,22 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Neil Stewart | Neil Stewart is a behavioural scientist at Warwick Business School in the University of Warwick.</title>
+<title>wok2bib and wok2apa | Neil Stewart</title>
 <meta name="generator" content="Jekyll v4.0.1" />
-<meta property="og:title" content="Neil Stewart" />
+<meta property="og:title" content="wok2bib and wok2apa" />
+<meta name="author" content="Neil" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Neil Stewart is a behavioural scientist at Warwick Business School in the University of Warwick." />
-<meta property="og:description" content="Neil Stewart is a behavioural scientist at Warwick Business School in the University of Warwick." />
-<link rel="canonical" href="/404.html" />
-<meta property="og:url" content="/404.html" />
+<meta name="description" content="A lot of people have been asking me how I keep this blog so edgy. Like this:" />
+<meta property="og:description" content="A lot of people have been asking me how I keep this blog so edgy. Like this:" />
+<link rel="canonical" href="/2020/08/18/wok2bib.html" />
+<meta property="og:url" content="/2020/08/18/wok2bib.html" />
 <meta property="og:site_name" content="Neil Stewart" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-08-18T00:00:00+01:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Neil Stewart" />
+<meta property="twitter:title" content="wok2bib and wok2apa" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Neil Stewart is a behavioural scientist at Warwick Business School in the University of Warwick.","headline":"Neil Stewart","url":"/404.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Neil"},"dateModified":"2020-08-18T00:00:00+01:00","datePublished":"2020-08-18T00:00:00+01:00","description":"A lot of people have been asking me how I keep this blog so edgy. Like this:","headline":"wok2bib and wok2apa","mainEntityOfPage":{"@type":"WebPage","@id":"/2020/08/18/wok2bib.html"},"url":"/2020/08/18/wok2bib.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Neil Stewart" /></head>
 <body>
@@ -48,26 +50,54 @@ MathJax.Hub.Config({
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+        <h1>wok2bib and wok2apa</h1>
+<p>18 Aug 2020 - Neil</p>
 
-<div class="container">
-  <h1>404</h1>
+<p>A lot of people have been asking me how I keep this blog so edgy. Like this:</p>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<p>wok2bib is a command line utility for converting Web of Knowledge or Web of Science saved records into bibtex references for use with latex. wok2apa converts records to plain text APA format.</p>
+
+<p>You can find them on <a href="https://github.com/neil-stewart/wok2bib_and_wok2apa">github</a>.</p>
+
+<p>Here is an example of wok2bib at work:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cat </span>savedrecs.txt
+PT J
+AU Zarkadi, T
+Wade, KA
+Stewart, N
+AF Zarkadi, Theodora
+Wade, Kimberley A.
+Stewart, Neil
+TI Creating Fair Lineups <span class="k">for </span>Suspects With Distinctive Features
+SO PSYCHOLOGICAL SCIENCE
+SN 0956-7976
+PD DEC
+PY 2009
+VL 20
+IS 12
+BP 1448
+EP 1453
+UT ISI:000272163600003
+ER
+
+<span class="nv">$ </span><span class="nb">cat </span>savedrecs.txt | wok2bib
+@article<span class="o">{</span>Zarkadi09,
+author <span class="o">=</span> <span class="o">{</span>Zarkadi, T.<span class="o">}</span>,
+year <span class="o">=</span> <span class="o">{</span>2009<span class="o">}</span>,
+title <span class="o">=</span> <span class="o">{</span>Creating fair lineups <span class="k">for </span>suspects with distinctive features<span class="o">}</span>,
+journal <span class="o">=</span> <span class="o">{</span>Psychological Science<span class="o">}</span>,
+volume <span class="o">=</span> <span class="o">{</span>20<span class="o">}</span>,
+pages <span class="o">=</span> <span class="o">{</span>1448--1453<span class="o">}</span>,
+custom <span class="o">=</span> <span class="o">{</span>e<span class="o">}</span>,
+<span class="o">}</span>
+
+<span class="nv">$ </span><span class="nb">cat </span>savedrecs.txt | wok2apa
+Zarkadi, T., Wade, K. A., &amp; Stewart, N. <span class="o">(</span>2009<span class="o">)</span><span class="nb">.</span> Creating fair lineups <span class="k">for </span>suspects with distinctive features. Psychological Science, 20, 1448-1453. 
+</code></pre></div></div>
+
+
+
 
       </div>
     </main><footer class="site-footer h-card">
