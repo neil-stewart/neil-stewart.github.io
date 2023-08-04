@@ -10,6 +10,6 @@ I'm presenting this paper.
 
 Edmunds, C. E. R., Bose, D., Camerer, C. F., Mullett, T. L., & Stewart, N. (2020). Accumulation is late and brief in preferential choice. Manuscript submitted for publication. [https://doi.org/10.31234/osf.io/sa4zr](https://doi.org/10.31234/osf.io/sa4zr)
 
-Slides [here](assets/slides/late_and_brief.pdf). 
+Slides [here](/assets/slides/late_and_brief.pdf). 
 
 
