@@ -4,6 +4,7 @@ title: CV
 permalink: /CV/
 ---
 
+| 01.24- | Pro-Dean (Research, Engagement & Impact)<br>Warwick Business School<br>University of Warwick |
 | 07.17- | Professor of Behavioural Science<br>Warwick Business School<br>University of Warwick |
 | 10.09-06.17 | Professor of Psychology<br>Department of Psychology<br>University of Warwick |
 | 08.06-09.09 | Reader in Psychology<br>Department of Psychology<br>University of Warwick |
