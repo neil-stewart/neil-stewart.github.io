@@ -24,6 +24,8 @@ Society Prize Lecture](http://www.eps.ac.uk/index.php/eps-prize-lecturer) report
 
 [Decision Analysis Publication Award 2017](https://www.informs.org/Recognizing-Excellence/Community-Prizes/Decision-Analysis-Society/Decision-Analysis-Publication-Award) for [Stewart, Reimers, and Harris (2015)](http://dx.doi.org/10.1287/mnsc.2013.1853)
 
+European Financial Management Association 2023 best paper for [Cumming, Firth, Gathergood, and Stewart (2023)](https://doi.org/10.1111/eufm.12426)
+
 # Service
 
 | 2012- | Associate editor, _Management Science_ |
