@@ -1,1 +1,22 @@
-/home/neil/src/apa2bib/sort/extract_Stewart_II
+#!/usr/bin/perl -w
+
+use Text::BibTeX;
+ 
+my $bibfile = Text::BibTeX::File->new("/home/neil/miscellaneous/refs.bib");
+# my $bibfile = Text::BibTeX::File->new("temp.bib");
+my $newfile = Text::BibTeX::File->new(">Stewart.bib");
+
+while ($entry = Text::BibTeX::Entry->new($bibfile))
+{
+   next unless $entry->parse_ok;
+   
+   $author = $entry->get ('author');
+   $hidefromwebsite = $entry->exists ('hidefromwebsite'); # Pick up entry hidefromwebsite = {TRUE} 
+   #print "$hidefromwebsite\n";	
+
+   if (index($author, "Stewart, N") != -1 && $hidefromwebsite != 1) { 
+      print "$author\n";	
+      $entry->write ($newfile);
+   }
+}
+
