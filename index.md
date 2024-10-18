@@ -23,6 +23,8 @@ I work in the field of behavioural and economic science, and apply this research
 
 [![ORCID](assets/images/ORCiD_33.png)](https://orcid.org/0000-0002-2202-018X)
 
+[![Scopus](assets/images/Scopus_33.png)](https://www.scopus.com/authid/detail.uri?authorId=7102195176)
+
 &nbsp;
 
 ---
