@@ -5,7 +5,7 @@
 layout: home
 ---
 
-![Neil Stewart](assets/images/neil.jpeg)
+![Neil Stewart](assets/images/Neil_Stewart_WBS_Staff_Dec2024_2.jpg)
 
 Hello, I'm a behavioural scientist at [Warwick Business School](https://www.wbs.ac.uk) in the [University of Warwick](https://www.warwick.ac.uk/).
 
