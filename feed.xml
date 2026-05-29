@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2026-04-14T20:07:27+01:00</updated><id>/feed.xml</id><title type="html">Neil Stewart</title><subtitle>Neil Stewart is a behavioural scientist at Warwick Business School in the  University of Warwick.</subtitle><entry><title type="html">KCL Political Economy Seminar</title><link href="/2026/04/14/KCL.html" rel="alternate" type="text/html" title="KCL Political Economy Seminar" /><published>2026-04-14T00:00:00+01:00</published><updated>2026-04-14T00:00:00+01:00</updated><id>/2026/04/14/KCL</id><content type="html" xml:base="/2026/04/14/KCL.html"><![CDATA[<p>People often ask how to keep a blog lively. Regular posts.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2026-05-29T11:47:11+01:00</updated><id>/feed.xml</id><title type="html">Neil Stewart</title><subtitle>Neil Stewart is a behavioural scientist at Warwick Business School in the  University of Warwick.</subtitle><entry><title type="html">KCL Political Economy Seminar</title><link href="/2026/05/29/LUBS.html" rel="alternate" type="text/html" title="KCL Political Economy Seminar" /><published>2026-05-29T00:00:00+01:00</published><updated>2026-05-29T00:00:00+01:00</updated><id>/2026/05/29/LUBS</id><content type="html" xml:base="/2026/05/29/LUBS.html"><![CDATA[<p>I’m at the Centre for Decision Research at Leeds University Business School. It is their 30th birthday!</p>
+
+<p>I’m presenting these papers:</p>
+
+<p>Beshears, J., Blakstad, M., Choi, J., Firth, C., Gathergood, J., Laibson, D., Notley, R., Sheth, J., Sandbrook, W., &amp; Stewart, N. (2026). <i>Does pension automatic enrolment increase debt? Evidence from a large-scale natural experiment.</i> Retrieved from
+<a href="https://www.nber.org/papers/w32100">https://www.nber.org/papers/w32100</a></p>
+<blockquote>
+
+  <p>Murphy, S., Ferridge, G., Gathergood, J., Stewart, N., &amp; Muggleton, N. (2026).
+<i>Gambling displaces savings and investments rather than consumption in bank
+transaction records.</i> Manuscript submitted for publication.</p>
+</blockquote>
+
+<p>Quispe–Torreblanca, E., Gathergood, J., &amp; Stewart, N. (2026). <i>The equity premium in
+plain sight: Disclosure, beliefs, and stock market participation.</i> Unpublished
+manuscript.</p>
+
+<p>Slides <a href="/assets/slides/LUBS.pdf">here</a>.</p>]]></content><author><name>Neil</name></author><summary type="html"><![CDATA[I’m at the Centre for Decision Research at Leeds University Business School. It is their 30th birthday!]]></summary></entry><entry><title type="html">KCL Political Economy Seminar</title><link href="/2026/04/14/KCL.html" rel="alternate" type="text/html" title="KCL Political Economy Seminar" /><published>2026-04-14T00:00:00+01:00</published><updated>2026-04-14T00:00:00+01:00</updated><id>/2026/04/14/KCL</id><content type="html" xml:base="/2026/04/14/KCL.html"><![CDATA[<p>People often ask how to keep a blog lively. Regular posts.</p>
 
 <p>I’m presenting this paper at the Department of Political Economy at Kings on a follow up to this paper:</p>
 
@@ -171,8 +188,4 @@ journal <span class="o">=</span> <span class="o">{</span>Psychonomic Bulletin <s
 volume  <span class="o">=</span> <span class="o">{</span>15<span class="o">}</span>,
 pages   <span class="o">=</span> <span class="o">{</span>70--74<span class="o">}</span>,
 <span class="o">}</span>
-</code></pre></div></div>]]></content><author><name>Neil</name></author><summary type="html"><![CDATA[apa2bib is a command line utility for converting APA-formatted references into bibtex references for use with latex. You can find my apa2bib on github.]]></summary></entry><entry><title type="html">How This Website Works</title><link href="/2020/03/23/this_website.html" rel="alternate" type="text/html" title="How This Website Works" /><published>2020-03-23T00:00:00+00:00</published><updated>2020-03-23T00:00:00+00:00</updated><id>/2020/03/23/this_website</id><content type="html" xml:base="/2020/03/23/this_website.html"><![CDATA[<p>This website is build using Jekyll and the minima theme. I followed the <a href="https://jekyllrb.com/docs/step-by-step/01-setup/">Jekyll step-by-step tutorial</a>.</p>
-
-<p>The <a href="/publications.html">publications</a> page is made using <a href="https://github.com/inukshuk/jekyll-scholar">Jekyll scholar</a>, which builds the whole page—links and all—from my master bibtex file.</p>
-
-<p>Because I have used the Jekyll scholar extension, which is not available on GitHub Pages, I have to build the site locally, pushing it to git as described in <a href="http://sarahcassady.com/2015/07/17/jekyll-on-github-pages/">Jekyll on Github Pages with Plugins</a> tutorial.</p>]]></content><author><name>Neil</name></author><summary type="html"><![CDATA[This website is build using Jekyll and the minima theme. I followed the Jekyll step-by-step tutorial.]]></summary></entry></feed>
+</code></pre></div></div>]]></content><author><name>Neil</name></author><summary type="html"><![CDATA[apa2bib is a command line utility for converting APA-formatted references into bibtex references for use with latex. You can find my apa2bib on github.]]></summary></entry></feed>
