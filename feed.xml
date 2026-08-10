@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2026-06-23T10:44:53+01:00</updated><id>/feed.xml</id><title type="html">Neil Stewart</title><subtitle>Neil Stewart is a behavioural scientist at Warwick Business School in the  University of Warwick.</subtitle><entry><title type="html">Uppsala Seminar</title><link href="/2026/06/09/Uppsala.html" rel="alternate" type="text/html" title="Uppsala Seminar" /><published>2026-06-09T00:00:00+01:00</published><updated>2026-06-09T00:00:00+01:00</updated><id>/2026/06/09/Uppsala</id><content type="html" xml:base="/2026/06/09/Uppsala.html"><![CDATA[<p>I’m in Uppsala, visiting Peter Juslin’s lab, for Mattias Forsgren’s viva.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2026-08-10T11:30:28+01:00</updated><id>/feed.xml</id><title type="html">Neil Stewart</title><subtitle>Neil Stewart is a behavioural scientist at Warwick Business School in the  University of Warwick.</subtitle><entry><title type="html">Choice Symposium 2026</title><link href="/2026/08/10/Vail.html" rel="alternate" type="text/html" title="Choice Symposium 2026" /><published>2026-08-10T00:00:00+01:00</published><updated>2026-08-10T00:00:00+01:00</updated><id>/2026/08/10/Vail</id><content type="html" xml:base="/2026/08/10/Vail.html"><![CDATA[<p>I’m in Vail, for the 2026 Choice Symposium.</p>
+
+<p>Slides <a href="/assets/slides/Vail.pdf">here</a>.</p>]]></content><author><name>Neil</name></author><summary type="html"><![CDATA[I’m in Vail, for the 2026 Choice Symposium.]]></summary></entry><entry><title type="html">Uppsala Seminar</title><link href="/2026/06/09/Uppsala.html" rel="alternate" type="text/html" title="Uppsala Seminar" /><published>2026-06-09T00:00:00+01:00</published><updated>2026-06-09T00:00:00+01:00</updated><id>/2026/06/09/Uppsala</id><content type="html" xml:base="/2026/06/09/Uppsala.html"><![CDATA[<p>I’m in Uppsala, visiting Peter Juslin’s lab, for Mattias Forsgren’s viva.</p>
 
 <p>Here is the abstract:</p>
 
@@ -170,20 +172,4 @@ $c3
 $c4 
       g4A       g4B  
 0.6025243 0.3974757  
-</code></pre>]]></content><author><name>Neil</name></author><summary type="html"><![CDATA[This code implements the decision-by-sampling model for risky choices reported in Stewart, Chater, and Brown (2006), Stewart and Simpson (2008) and Stewart (2009). The example R code implements the model for one example of the common ratio effect from Kahneman and Tversky (1979).]]></summary></entry><entry><title type="html">Erratum for Stewart (2009)</title><link href="/2020/03/25/DbS_erratum.html" rel="alternate" type="text/html" title="Erratum for Stewart (2009)" /><published>2020-03-25T00:00:00+00:00</published><updated>2020-03-25T00:00:00+00:00</updated><id>/2020/03/25/DbS_erratum</id><content type="html" xml:base="/2020/03/25/DbS_erratum.html"><![CDATA[<p>The first equation on p. 1051 of Stewart (2009) should read</p>
-
-<p>$1/[1+(1/d-1)^T]$</p>
-
-<p>instead of</p>
-
-<p>$1/[1+(1-1/d)^T]$</p>
-
-<p>The second equation on p. 1051 should read</p>
-
-<p>$\sum_{i=0}^{T-1}\frac{(T+i-1)!}{i!(T-1)!} ~ p_A^T p_b^i$</p>
-
-<p>instead of</p>
-
-<p>$\sum_{i=0}^{T-1}\frac{(T-i-1)!}{i!(T-1)!} ~ p_A^T p_b^i$</p>
-
-<p>Stewart, N. (2009). Decision by sampling: The role of the decision environment in risky choice. <em>Quarterly Journal of Experimental Psychology, 62,</em> 1041–1062. <a href="https://doi.org/10.1080/17470210902747112">doi: 10.1080/17470210902747112</a></p>]]></content><author><name>Neil</name></author><summary type="html"><![CDATA[The first equation on p. 1051 of Stewart (2009) should read]]></summary></entry></feed>
+</code></pre>]]></content><author><name>Neil</name></author><summary type="html"><![CDATA[This code implements the decision-by-sampling model for risky choices reported in Stewart, Chater, and Brown (2006), Stewart and Simpson (2008) and Stewart (2009). The example R code implements the model for one example of the common ratio effect from Kahneman and Tversky (1979).]]></summary></entry></feed>
