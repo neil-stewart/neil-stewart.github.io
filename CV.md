@@ -28,9 +28,9 @@ European Financial Management Association 2023 best paper for [Cumming, Firth, G
 
 # Service
 
-| 2012- | Associate editor, _Management Science_ |
 | 2019- | Consulting editor, _Decision_ |
 | 2022- | Board member, _Perspectives on Psychological Science_ |
+| 2012-2026 | Associate editor, _Management Science_ |
 | 2008-2021 | Consulting editor, _Psychological Review_ |
 | 2011-2018 | Consulting editor, _Journal of Experimental Psychology: Learning, Memory, and Cognition_ |
 | 2006-2013 | Consulting editor, _Psychonomic Bulletin & Review_ | 
