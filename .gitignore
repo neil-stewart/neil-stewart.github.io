@@ -3,3 +3,7 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+/assets/main.css
+/assets/main.css.map
+/assets/css/styles.css
+/assets/css/styles.css.map
